@@ -95,7 +95,7 @@ const AdminMenu = () => {
       }
 
       if (editingItem) {
-        await axios.put(`/api/admin/menu/${editingItem._id}`, submitData, {
+        await axiosClient.put(`/api/admin/menu/${editingItem._id}`, submitData, {
           headers: { "Content-Type": "multipart/form-data" },
         })
         toast.success("Menu item updated successfully")

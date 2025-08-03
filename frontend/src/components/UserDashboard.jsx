@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
-import axios from "axios"
 import { ShoppingBag, Clock, CheckCircle, Package, TrendingUp, Coffee, Star } from "lucide-react"
 import { useAuth } from "../contexts/AuthContext"
 import axiosClient from "../utils/axiosClient"
