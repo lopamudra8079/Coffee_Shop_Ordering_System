@@ -2,7 +2,7 @@
   "name": "coffee-shop-backend",
   "version": "1.0.0",
   "description": "Coffee shop backend API",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "serve": "nodemon index.js"
